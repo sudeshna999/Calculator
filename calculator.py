@@ -12,14 +12,15 @@ if st.button("Calculate"):
     if operation == "Add":
         result = num1 + num2
     elif operation == "Subtract":
-        result = num1 + num2
+        result = num1 - num2
     elif operation == "Multiplication":
-        result = num1 + num2
+        result = num1 * num2
     elif operation == "Divide":
-        result = num1 + num2
+        result = num1 / num2
 else:
     result = None
 
 if result:
     st.success(f"Result:{result}")
+
 
